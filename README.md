@@ -1,6 +1,6 @@
 # MigrantTastatur
 
-An English keyboard layout for German residents.
+An English keyboard layout for German residents. **Only macOS is supported now.**
 
 ## Changes compared to English (US) layout
 
