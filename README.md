@@ -2,6 +2,26 @@
 
 An English keyboard layout for German residents.
 
+## Changes compared to English (US) layout
+
+- umlauts can be typed using Option+KEY (e.g. Option+A for Ä)
+- Euro sign (€) was moved to Option+E
+- acute accent (´) was moved to Option-H
+- O with acute (Ó) was moved to Shift-Option-E
+- overdot (˙) was moved to Shift-Option-2
+- scandinavian O (Ø) and A with overring (Å) are gone
+
+## Installing
+
+1. Get the latest release [here](https://github.com/NickKaramoff/MigrantTastatur/releases)
+2. Either run `bash install.sh` in Terminal or move the file `src/mac/MigrantBundle`
+   to `/Library/Keyboard Layouts`
+3. Select the layout in the settings (it's in the "Other" category)
+4. You can remove the English/German layout now if you will. If the button is
+   greyed out, you can try adding a Japanese layout, removing the English/German
+   layout, and then removing the Japanese one
+5. Log out and log back in as the final touch.
+
 ## The Reason
 
 When I came to Germany as a guest in 2014, I noticed, how bad the German
@@ -32,3 +52,5 @@ Option-U Shift-A for Ä). The Euro sign is also placed weirdly at Shift-Option-2
 Thanks [@tonsky](https://twitter.com/nikitonsky) for inspiration in form of
 [Universal-Layout](https://github.com/tonsky/Universal-Layout/). The build
 scripts are also his work.
+
+The keyboard layout was done with [Ukelele](http://software.sil.org/ukelele/).
