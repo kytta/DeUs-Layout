@@ -11,7 +11,7 @@
 	<key>KLInfo_English (DE)</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>ru.karamoff.keyboardlayout.migranttastatur.english(de)</string>
+		<string>ru.karamoff.keyboardlayout.migranttastatur.english-de</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-DE</string>
 	</dict>
