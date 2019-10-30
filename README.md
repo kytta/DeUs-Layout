@@ -4,11 +4,11 @@ An English keyboard layout for German residents.
 
 ## Changes compared to English (US) layout
 
-- umlauts can be typed using Option+KEY (e.g. Option+A for Ä)
-- Euro sign (€) was moved to Option+E
-- acute accent (´) was moved to Option-H
-- O with acute (Ó) was moved to Shift-Option-E
-- overdot (˙) was moved to Shift-Option-2
+- umlauts can be typed using `Option`+KEY (e.g. `Option`+`A` for ä)
+- Euro sign (€) was moved to `Option`+`E`
+- acute accent (´) was moved to `Option`-`H`
+- O with acute (Ó) was moved to `Shift`-`Option`-`E`
+- overdot (˙) was moved to `Shift`-`Option`-`2`
 - scandinavian O (Ø) and A with overring (Å) are gone
 
 ## Installing
@@ -16,7 +16,7 @@ An English keyboard layout for German residents.
 1. Get the latest release [here](https://github.com/NickKaramoff/MigrantTastatur/releases)
 2. Either run `bash install.sh` in Terminal or move the file `src/mac/MigrantBundle`
    to `/Library/Keyboard Layouts`
-3. Select the layout in the settings (it's in the "Other" category)
+3. Select the layout in the settings. It is under "English" category and is called "English (DE)", "Deutschland, englisch" or "Английский (Германия)", depending on what your system language is.
 4. You can remove the English/German layout now if you will. If the button is
    greyed out, you can try adding a Japanese layout, removing the English/German
    layout, and then removing the Japanese one
