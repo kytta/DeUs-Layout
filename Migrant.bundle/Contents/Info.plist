@@ -8,10 +8,10 @@
 	<string>Migrant</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
-	<key>KLInfo_English</key>
+	<key>KLInfo_English (DE)</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>ru.karamoff.keyboardlayout.migranttastatur.english</string>
+		<string>ru.karamoff.keyboardlayout.migranttastatur.english(de)</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-DE</string>
 	</dict>
