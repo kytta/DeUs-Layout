@@ -1,6 +1,11 @@
 # MigrantTastatur
 
-An English keyboard layout for German residents. **Only macOS is supported now.**
+> A keyboard layout for German speakers based on the US layout  
+> **Only macOS is supported now.**
+
+If you come to Germany from a country, where the primary latin keyboard layout is based on US Intl. or UK layout, you know the pain of trying to use the German PC layout. Shifted parentheses, Y-Z swap, weird placement of brackets. It becomes a nightmare, when you try to write code on these.
+
+MigrantTastatur tries to solve this by taking the US Layout and replacing some of the modified keys with symbols, reletable to Germans and Germany residents (such as umlauts, eszett and Euro sign).
 
 ## Changes compared to English (US) layout
 
@@ -11,46 +16,25 @@ An English keyboard layout for German residents. **Only macOS is supported now.*
 - overdot (˙) was moved to `Shift`-`Option`-`2`
 - scandinavian O (Ø) and A with overring (Å) are gone
 
-## Installing
+## Install
 
-1. Get the latest release [here](https://github.com/NickKaramoff/MigrantTastatur/releases)
-2. Either run `bash install.sh` in Terminal or move the file `src/mac/MigrantBundle`
-   to `/Library/Keyboard Layouts`
-3. Select the layout in the settings. It is under "English" category and is called "English (DE)", "Deutschland, englisch" or "Английский (Германия)", depending on what your system language is.
-4. You can remove the English/German layout now if you will. If the button is
-   greyed out, you can try adding a Japanese layout, removing the English/German
-   layout, and then removing the Japanese one
-5. Log out and log back in as the final touch.
+### macOS
 
-## The Reason
-
-When I came to Germany as a guest in 2014, I noticed, how bad the German
-keyboard layout is. When I came here as a semi-permanent resident, I realized,
-how awful it is.
-
-For me, a person, who has been using the English QWERTY keyboard the whole time,
-this was a nightmare:
-
-- Y and Z are swapped (which is the only useful concept)
-- dash and underscore are swapped with slash and question mark
-- slash, by the way, is on Shift-7
-- parentheses are nudged one key to the left and now are at Shift-8 and Shift-9
-  (just why???)
-- colon and semicolon are on Shift-dot and Shift-comma. Where are the less-than
-  and greater-than signs? Why, where backtick and tilde used to be! Tilde is at
-  Option-N, and backtick is gone
-
-And the list goes on; it seems, that every symbol that isn't basic punctuation
-was moved somewhere. As a programmer, I can't find this usable.
-
-"Well, use the English keyboard then" I said to myself, but it wasn't good
-either. Typing umlauts requires a double keystroke (Option-U A for ä and
-Option-U Shift-A for Ä). The Euro sign is also placed weirdly at Shift-Option-2.
+1. Download the ZIP archive from [the release page](https://github.com/NickKaramoff/MigrantTastatur/releases/tag/1.0.0).
+2. Unzip the file.
+3. Execute `mac/install`, either by double clicking it or by running `sh mac/install`
+   - this script overrides the file `mac/Migrant.bundle` in `/Library/Keyboard Layouts` with the newer version. You can also do it manually.
+4. Select the layout in the settings. It is under "English" category and is called "English (DE)".
+   - depending on your OS locale, it may be called "Deutschland, englisch" or "Английский (Германия)".
+5. You can remove the English/German layout now if you will. If the button is greyed out, you can try adding a Japanese layout, removing the English/German layout, and then removing the Japanese one.
+6. Log out and log back in
 
 ## Credits
 
-Thanks [@tonsky](https://twitter.com/nikitonsky) for inspiration in form of
-[Universal-Layout](https://github.com/tonsky/Universal-Layout/). The build
-scripts are also his work.
+Inspired by [@tonsky](https://twitter.com/nikitonsky)'s [Universal-Layout](https://github.com/tonsky/Universal-Layout/). I am also using modified build scripts from there.
 
-The keyboard layout was done with [Ukelele](http://software.sil.org/ukelele/).
+The keyboard layout was done with help of [Ukelele](http://software.sil.org/ukelele/).
+
+## License
+
+MIT © 2019 Nikita Karamov
