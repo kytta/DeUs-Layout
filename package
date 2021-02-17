@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+BASEDIR=$(dirname "$0")
+
+rm -rf "$BASEDIR/dist"
+
+mkdir "$BASEDIR/dist"
+
+# compress [r]ecursively, [q]uiet, with compression level [9]
+zip -r9 "$BASEDIR/dist/MigrantTastatur_macOS_$(git tag -l | head -n 1).zip" "$BASEDIR/mac/Migrant.bundle" "$BASEDIR/mac/install" "$BASEDIR/README.md" "$BASEDIR/LICENSE"
