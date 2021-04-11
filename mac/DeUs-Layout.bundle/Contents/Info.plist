@@ -3,17 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>ru.karamoff.keyboardlayout.migranttastatur</string>
+	<string>dev.karamoff.deuslayout</string>
 	<key>CFBundleName</key>
-	<string>Migrant</string>
+	<string>DeUs-Layout</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.0</string>
-	<key>KLInfo_English (DE)</key>
+	<string>2.0.0</string>
+	<key>KLInfo_German (DeUs)</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
-		<string>ru.karamoff.keyboardlayout.migranttastatur.english-de</string>
+		<string>dev.karamoff.deuslayout.german(deus)</string>
 		<key>TISIntendedLanguage</key>
-		<string>en-DE</string>
+		<string>de-US</string>
 	</dict>
 </dict>
 </plist>
