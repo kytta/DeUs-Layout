@@ -26,7 +26,7 @@ DeUs-Layout is my solution — it's the US Layout with replaced symbols, relevan
 
 ## Install
 
-1. Download the ZIP archive from [the latest release page](https://github.com/NickKaramoff/MigrantTastatur/releases/latest).
+1. Download the ZIP archive from [the latest release page](https://github.com/NickKaramoff/DeUs-Layout/releases/latest).
 2. Unzip the file.
 3. Go to `mac` folder and execute `install`, either by double-clicking it or by running `./mac/install` in Terminal
    - alternatively, take the file `mac/DeUs-Layout.bundle` and put it in `/Library/Keyboard Layouts`.
