@@ -1,0 +1,27 @@
+<svg viewBox="0 0 64 64"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+    <g transform="translate(-1.067 -1.067) scale(2.06667)">
+        <clipPath id="a">
+            <path d="M31.484.516H.516v30.968h30.968V.516zM27.613 16.28a.775.775 0 0 0-.774-.774H5.161a.775.775 0 0 0-.774.774v13.936c0 .427.347.774.774.774h21.678a.775.775 0 0 0 .774-.774V16.28z"/>
+        </clipPath>
+        <g clip-path="url(#a)">
+            <path d="M1.001 1h30v6h-30z"/>
+            <path style="fill:#c1121c" d="M7.374 8.516h10.364v5.938H7.374z" transform="matrix(2.89468 0 0 1.01038 -20.344 -1.605)"/>
+            <path style="fill:#fc0" d="M7.374 8.516h10.364v5.938H7.374z" transform="matrix(2.89468 0 0 1.01038 -20.344 4.395)"/>
+        </g>
+    </g>
+    <g transform="translate(-1.067 -1.067) scale(2.06667)">
+        <clipPath id="b">
+            <path d="M27.613 16.28a.775.775 0 0 0-.774-.774H5.161a.775.775 0 0 0-.774.774v13.936c0 .427.347.774.774.774h21.678a.775.775 0 0 0 .774-.774V16.28z"/>
+        </clipPath>
+        <g clip-path="url(#b)">
+            <use xlink:href="#c" x="8" y="33.44" width="48" height="10.19" transform="matrix(.48387 0 0 .44825 .516 .516)"/>
+        </g>
+    </g>
+    <path d="M31 19.601c0-.332-.224-.601-.5-.601h-14c-.276 0-.5.269-.5.601V30.42c0 .332.224.601.5.601h14c.276 0 .5-.269.5-.601V19.601z" style="fill:#002663;fill-opacity:.75" transform="matrix(3.2 0 0 2.66202 -43.2 -19.6)"/>
+    <text x="21.023" y="23.518" style="font-family:'IBMPlexSans-Bold','IBM Plex Sans',sans-serif;font-weight:700;font-size:11.592px;fill:#fff" transform="translate(-47.504 -6.773) scale(2.76042)">US</text>
+    <defs>
+        <image id="c" width="48" height="11" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAALCAYAAAA5vw7pAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAATUlEQVRIie3PoQ2AUADE0EJu/5kwOP4KaDyezxAnGhLeBO0yDyYfttoBrX/AFuCxIxoBbjuiEeC0IxoBdjuiEWCzIxoBhh3RCHDZEY0XR3kI91gQVLIAAAAASUVORK5CYII="/>
+    </defs>
+</svg>
