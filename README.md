@@ -1,56 +1,46 @@
-# MigrantTastatur
+# DeUs-Layout
 
-An English keyboard layout for German residents. **Only macOS is supported now.**
+**in English** • [auf Deutsch](README.de.md)
+
+> A US-layout-based keyboard layout for German.  
+> **Only macOS is supported now.**
+
+If you come to Germany from a country, where the primary latin keyboard layout is a version of an English layout (e.g., US Intl. or UK), you know the pain of trying to use the infamous ‘T1-Belegung’. Shifted parentheses, Y-Z swap, weird placement of brackets. It becomes a nightmare, when you try to write code on these.
+
+DeUs-Layout is my solution — it's the US Layout with replaced symbols, relevant to Germans and Germany residents (such as umlauts, Eszett and Euro sign).
+
+![Keyboard layout with special keys highlighted](assets/layout/layout.png)
 
 ## Changes compared to English (US) layout
 
-- umlauts can be typed using `Option`+KEY (e.g. `Option`+`A` for ä)
-- Euro sign (€) was moved to `Option`+`E`
-- acute accent (´) was moved to `Option`-`H`
-- O with acute (Ó) was moved to `Shift`-`Option`-`E`
-- overdot (˙) was moved to `Shift`-`Option`-`2`
-- scandinavian O (Ø) and A with overring (Å) are gone
+- German-related
+  - German umlauts (äöü) can be typed using (<kbd>⇧ Shift</kbd>+)<kbd>⌥ Option</kbd>+<kbd>a</kbd>/<kbd>o</kbd>/<kbd>u</kbd>
+  - Eszett (ß) is left at <kbd>⌥ Option</kbd>+<kbd>s</kbd>, but its capital version (ẞ) is now at <kbd>⇧ Shift</kbd>+<kbd>⌥ Option</kbd>+<kbd>s</kbd>
+  - Euro sign (€) is now at <kbd>⌥ Option</kbd>+<kbd>e</kbd>
+  - acute accent (´) moved to <kbd>⌥ Option</kbd>+<kbd>h</kbd>
+  - opening and closing quotation marks swapped to match the German rules
+    - accesible at (<kbd>⇧ Shift</kbd>+)<kbd>⌥ Option</kbd>+<kbd>\[</kbd>/<kbd>\]</kbd>/<kbd>\\</kbd>
+- Consistency-related
+  - Capital delta (∆) moved to <kbd>⇧ Shift</kbd>+<kbd>⌥ Option</kbd>+<kbd>d</kbd>
+  - Lowercase O with circumflex (ô) was added to <kbd>⌥ Option</kbd>+<kbd>j</kbd>
 
-## Installing
+## Install
 
-1. Get the latest release [here](https://github.com/NickKaramoff/MigrantTastatur/releases)
-2. Either run `bash install.sh` in Terminal or move the file `src/mac/MigrantBundle`
-   to `/Library/Keyboard Layouts`
-3. Select the layout in the settings. It is under "English" category and is called "English (DE)", "Deutschland, englisch" or "Английский (Германия)", depending on what your system language is.
-4. You can remove the English/German layout now if you will. If the button is
-   greyed out, you can try adding a Japanese layout, removing the English/German
-   layout, and then removing the Japanese one
-5. Log out and log back in as the final touch.
-
-## The Reason
-
-When I came to Germany as a guest in 2014, I noticed, how bad the German
-keyboard layout is. When I came here as a semi-permanent resident, I realized,
-how awful it is.
-
-For me, a person, who has been using the English QWERTY keyboard the whole time,
-this was a nightmare:
-
-- Y and Z are swapped (which is the only useful concept)
-- dash and underscore are swapped with slash and question mark
-- slash, by the way, is on Shift-7
-- parentheses are nudged one key to the left and now are at Shift-8 and Shift-9
-  (just why???)
-- colon and semicolon are on Shift-dot and Shift-comma. Where are the less-than
-  and greater-than signs? Why, where backtick and tilde used to be! Tilde is at
-  Option-N, and backtick is gone
-
-And the list goes on; it seems, that every symbol that isn't basic punctuation
-was moved somewhere. As a programmer, I can't find this usable.
-
-"Well, use the English keyboard then" I said to myself, but it wasn't good
-either. Typing umlauts requires a double keystroke (Option-U A for ä and
-Option-U Shift-A for Ä). The Euro sign is also placed weirdly at Shift-Option-2.
+1. Download the ZIP archive from [the latest release page](https://github.com/NickKaramoff/DeUs-Layout/releases/latest).
+2. Unzip the file.
+3. Go to `mac` folder and execute `install`, either by double-clicking it or by running `./mac/install` in Terminal
+   - alternatively, take the file `mac/DeUs-Layout.bundle` and put it in `/Library/Keyboard Layouts`.
+4. Select the new layout in the settings. It is under "German" category and is called "German (DeUs)".
+   - depending on your OS locale, it may be called "DeUs, deutsch" or "Немецкий (DeUs)".
+5. You can remove your old English/German layout now if you will. If the button is greyed out, try to add a Japanese layout, remove the English/German layout, and then remove the Japanese one.
+6. Log out and log back in for good measure.
 
 ## Credits
 
-Thanks [@tonsky](https://twitter.com/nikitonsky) for inspiration in form of
-[Universal-Layout](https://github.com/tonsky/Universal-Layout/). The build
-scripts are also his work.
+Inspired by [@tonsky](https://twitter.com/nikitonsky)'s [Universal-Layout](https://github.com/tonsky/Universal-Layout/). I am also using modified build scripts of his.
 
-The keyboard layout was done with [Ukelele](http://software.sil.org/ukelele/).
+The keyboard layout was done with help of [Ukelele](http://software.sil.org/ukelele/).
+
+## Licence
+
+[BSD-3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) © 2019-2021 Nikita Karamov

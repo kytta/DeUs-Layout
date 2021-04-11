@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+BASEDIR=$(dirname "$0")
+
+rm -rf "$BASEDIR/dist"
+
+mkdir "$BASEDIR/dist"
+
+# compress [r]ecursively, with compression level [9]
+zip -r9 "$BASEDIR/dist/DeUs-Layout_macOS_$(git tag -l | head -n 1).zip" "$BASEDIR/mac/DeUs-Layout.bundle" "$BASEDIR/mac/install" "$BASEDIR/README.md" "$BASEDIR/README.de.md" "$BASEDIR/LICENSE"

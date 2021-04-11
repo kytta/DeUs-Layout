@@ -1,0 +1,252 @@
+[
+  {
+    "backcolor": "#ffffff",
+    "name": "DeUs-Layout",
+    "author": "Nikita Karamov",
+    "radii": "0",
+    "css": "@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');\n\n* {\n    font-family: 'IBM Plex Sans', sans-serif;\n    font-weight: 400;\n    border: none;\n}",
+    "pcb": false,
+    "plate": false
+  },
+  [
+    {
+      "c": "#fafafa",
+      "t": "#bbbbbb",
+      "p": "FLAT",
+      "f": 4
+    },
+    "\n\n`\n`\n\n\n\n\n~\n\n`",
+    {
+      "a": 5
+    },
+    "!\n1",
+    "@\n2",
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "^\n6",
+    "&\n7",
+    "*\n8",
+    "(\n9",
+    ")\n0",
+    "_\n-",
+    "+\n=",
+    {
+      "a": 4,
+      "f": 3,
+      "w": 1.5
+    },
+    "\n\n\ndelete"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "\ntab",
+    {
+      "c": "#f3f3f3",
+      "t": "#aaaaaa",
+      "a": 7,
+      "f": 4
+    },
+    "Q",
+    {
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n\n#aaaaaa",
+      "a": 4
+    },
+    "\n\n”\n\n\n\n\n\n\nW",
+    "\n\n\n€\n\n\n\n\n\nE",
+    {
+      "t": "#aaaaaa",
+      "a": 7
+    },
+    "R",
+    "T",
+    "Y",
+    {
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n\n#aaaaaa",
+      "a": 4
+    },
+    "\n\nÜ\nü\n\n\n\n\n\nU",
+    {
+      "t": "#aaaaaa",
+      "a": 7
+    },
+    "I",
+    {
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n\n#aaaaaa",
+      "a": 4
+    },
+    "\n\nÖ\nö\n\n\n\n\n\nO",
+    {
+      "t": "#aaaaaa",
+      "a": 7
+    },
+    "P",
+    {
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n#aaaaaa\n\n#aaaaaa",
+      "a": 4
+    },
+    "\n\n“\n„\n\n\n\n\n{\n\n[",
+    "\n\n‘\n‚\n\n\n\n\n}\n\n]",
+    "\n\n«\n»\n\n\n\n\n|\n\n\\"
+  ],
+  [
+    {
+      "c": "#fafafa",
+      "t": "#bbbbbb",
+      "f": 3,
+      "fa": [
+        4
+      ],
+      "w": 1.75
+    },
+    "•\ncaps lock",
+    {
+      "c": "#f3f3f3",
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n\n#aaaaaa",
+      "f": 4
+    },
+    "\n\nÄ\nä\n\n\n\n\n\nA",
+    "\n\nẞ\nß\n\n\n\n\n\nS",
+    "\n\n∆\n∂\n\n\n\n\n\nD",
+    {
+      "t": "#aaaaaa",
+      "a": 7
+    },
+    "F",
+    "G",
+    {
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n\n#aaaaaa",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        6,
+        6
+      ]
+    },
+    "\n\n´\n´\n\n\n\n\n\nH",
+    {
+      "f": 4
+    },
+    "\n\nÔ\nô\n\n\n\n\n\nJ",
+    {
+      "t": "#aaaaaa",
+      "a": 7
+    },
+    "K",
+    "L",
+    {
+      "t": "#aaaaaa\n#aaaaaa\n\n\n\n\n#aaaaaa",
+      "a": 5
+    },
+    ":\n;",
+    {
+      "t": "#aaaaaa\n#aaaaaa"
+    },
+    "\"\n'",
+    {
+      "c": "#fafafa",
+      "t": "#bbbbbb",
+      "a": 4,
+      "f": 3,
+      "w": 1.75
+    },
+    "\n\n\nreturn"
+  ],
+  [
+    {
+      "w": 2.25
+    },
+    "\nshift",
+    {
+      "c": "#f3f3f3",
+      "t": "#aaaaaa",
+      "a": 7,
+      "f": 4
+    },
+    "Z",
+    "X",
+    {
+      "t": "#000000\n\n#119900\n#119900\n\n\n\n\n#aaaaaa\n#aaaaaa\n#aaaaaa",
+      "a": 4
+    },
+    "\n\nÇ\nç\n\n\n\n\n\nC",
+    {
+      "t": "#aaaaaa",
+      "a": 7
+    },
+    "V",
+    "B",
+    "N",
+    "M",
+    {
+      "t": "#aaaaaa\n#aaaaaa\n\n\n\n\n#aaaaaa",
+      "a": 5
+    },
+    "<\n,",
+    ">\n.",
+    "?\n/",
+    {
+      "c": "#fafafa",
+      "t": "#bbbbbb",
+      "a": 4,
+      "f": 3,
+      "w": 2.25
+    },
+    "\n\n\nshift"
+  ],
+  [
+    {
+      "fa": [
+        0,
+        0,
+        4
+      ],
+      "w": 1.5
+    },
+    "\n\n⌃\ncontrol",
+    {
+      "c": "#ddeedd",
+      "t": "#000000",
+      "w": 1.5,
+      "h": 1.15
+    },
+    "\n\n⌥\noption",
+    {
+      "c": "#fafafa",
+      "t": "#bbbbbb",
+      "w": 1.5
+    },
+    "\n\n⌘\ncommand",
+    {
+      "a": 7,
+      "f": 4,
+      "w": 5.5
+    },
+    "",
+    {
+      "a": 4,
+      "f": 3,
+      "fa": [
+        4
+      ],
+      "w": 1.5
+    },
+    "⌘\ncommand",
+    {
+      "c": "#ddeedd",
+      "t": "#000000",
+      "w": 1.5,
+      "h": 1.15
+    },
+    "⌥\noption",
+    {
+      "c": "#fafafa",
+      "t": "#bbbbbb",
+      "w": 1.5
+    },
+    "⌃\ncontrol"
+  ]
+]
