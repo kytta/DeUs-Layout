@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>dev.karamoff.deuslayout</string>
+	<string>dev.karamoff.keyboardlayout.deus</string>
 	<key>CFBundleName</key>
-	<string>DeUs-Layout</string>
+	<string>DeUs</string>
 	<key>CFBundleVersion</key>
 	<string>2.0.0</string>
-	<key>KLInfo_German (DeUs)</key>
+	<key>KLInfo_German — DeUs</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>dev.karamoff.deuslayout.german(deus)</string>
+		<string>dev.karamoff.keyboardlayout.deus.german-deus</string>
 		<key>TISIntendedLanguage</key>
-		<string>de-US</string>
+		<string>de</string>
 	</dict>
 </dict>
 </plist>

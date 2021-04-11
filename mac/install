@@ -5,10 +5,10 @@ set -e
 BASEDIR=$(dirname "$0")
 
 # check that the file exists
-touch "$BASEDIR/DeUs-Layout.bundle"
+touch "$BASEDIR/DeUs.bundle"
 
 # remove old files (if existent)
-sudo rm -rf "/Library/Keyboard Layouts/DeUs-Layout.bundle"
+sudo rm -rf "/Library/Keyboard Layouts/DeUs.bundle"
 
 # copy the layout in place
-sudo cp -r "$BASEDIR/DeUs-Layout.bundle" "/Library/Keyboard Layouts/"
+sudo cp -r "$BASEDIR/DeUs.bundle" "/Library/Keyboard Layouts/"
